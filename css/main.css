@@ -93,6 +93,34 @@ html {
     font-size: 17px;
 }
 
+a {
+    color: rgba(255,255,255,0.8);
+}
+
+.soon a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255,255,255,1);
+}
+
+.middle-2 .slogan {
+    font-size: 28px;
+}
+
+.contact {
+    color: rgba(255,255,255,0.7);
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
 @media (max-height: 500px) {
     .middle-2 .slogan {
         font-size: 16px;
@@ -100,14 +128,14 @@ html {
 }
 @media (max-height: 440px) {
     .middle-1 {
-        top: 60px!important;
+        top: 20px!important;
         bottom: auto!important;
     }
     .middle-1 .slogan {
-    font-size: 28px;
+        font-size: 28px;
     }
     .middle-2 {
-        bottom: -10px!important;
+        bottom: 10px!important;
     }
 }
 
